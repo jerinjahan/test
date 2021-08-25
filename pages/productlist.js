@@ -37,7 +37,7 @@ export default function Productlist({ data }) {
                 {data.map((data, i) => (
                     <div key={i}>
                         {/* <img src={data.image} width={200} height={200} /> */}
-                        <Image src={data?.image} width={200} height={200}></Image>
+                        {/* <Image src={data?.image} width={200} height={200}></Image> */}
                         <h1 >{data.title}</h1>
                         <h3 className="price">${data.price}</h3>
                         <h4>{data.category}</h4>
